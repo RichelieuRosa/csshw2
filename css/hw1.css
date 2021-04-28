@@ -27,6 +27,7 @@ h2{
   padding:1%;
   background: green;
   text-align: center;
+  height: 100vh;
 }
 
 .left img{
@@ -69,6 +70,64 @@ nav a:active{
 
 .active{
   background: rgb(255,255,255);
+}
+
+table{
+  font-family: sans-serif;
+  width: 75%;
+  margin: 2%;
+  margin-left: 8%;
+}
+
+td{
+  color: grey;
+  background: rgba(60,179,113,0.1);
+  padding: 1%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+th{
+  padding: 1.5% 0.5% 1.5% 1%;
+  background-color: green;
+  background: linear-gradient(to right, rgba(60,179,113,1), rgba(60,179,113,0.8));
+  color: white;
+  border-bottom: 5px;
+  border-radius: 3px 3px 0 0;
+  font-size: 17px;
+}
+
+th:first-child{
+  text-align: left;
+}
+
+th:not(:first-child){
+  text-align: center;
+}
+
+td:first-child{
+  text-align: left;
+}
+
+td:not(:first-child){
+  text-align: center;
+}
+
+tr:not(:first-child){
+  opacity: 0.8;
+}
+
+tr:hover{
+  opacity: 1;
+
+}
+
+td:hover{
+  text-shadow: 0 0 2px rgb(148,190,109); /*this code is for color change to green when mouse on it*/
+}
+
+th:hover{
+  text-shadow: 0 0 3px rgb(240,240,240);
 }
 
 section{
